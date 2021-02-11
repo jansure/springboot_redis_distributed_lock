@@ -14,9 +14,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.StringUtils;
 
-@Configuration
-@EnableConfigurationProperties(value = RedissonProperties.class)
-@ConditionalOnClass(RedissonProperties.class)
+//@Configuration
+//@EnableConfigurationProperties(value = RedissonProperties.class)
+//@ConditionalOnClass(RedissonProperties.class)
 public class RedissonConfiguration {
 
 
